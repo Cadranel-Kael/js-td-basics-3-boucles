@@ -20,10 +20,21 @@
 
 // code de base sans le bonus
 
-
-
-
+// let input = ``;
+//
+// while(input.toLowerCase() !== `x`) {
+//     input = prompt(`Tapez une lettre ou 'X' pour sortir :`);
+// }
 
 // code avec le bonus
 
+let i = 0;
+const input = [];
+input[i] = ``;
 
+while(input[i].toLowerCase() !== `x`) {
+    i++;
+    input[i] = prompt(`Tapez une lettre ou 'X' pour sortir :`);
+}
+
+console.log(input.join(''));

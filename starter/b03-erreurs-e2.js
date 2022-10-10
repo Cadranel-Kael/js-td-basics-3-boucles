@@ -15,4 +15,7 @@ EXEMPLE 2 : Mauvaise manipulation du compteur d'une boucle FOR
 - Que se passe-t-il lorsqu'on exécute ce code dans un navigateur ?
 */
 
-
+for (let i=1; i<=10;) {
+    console.log(i);
+    i++;
+}

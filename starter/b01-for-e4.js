@@ -26,3 +26,10 @@
     - que se passe-t-il si vous déclarez i avec var ?
 */
 
+const number = parseInt(prompt(`Je voudrais afficher les 10 premières valeurs de la table de multiplication par`));
+
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${number}`);
+
+for (let i=1; i<=10; i++) {
+    console.log(`${number} x ${i} = ${number*i}`);
+}

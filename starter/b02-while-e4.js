@@ -20,3 +20,13 @@
     - pour chaque valeur, le calcul et le résultat (par exemple : 1 * 7 = 7)
 */
 
+const number = parseInt(prompt(`Je voudrais afficher les 10 premières valeurs de la table de multiplication par`));
+
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${number}`);
+let i=1;
+
+while (i<=10) {
+    console.log(`${number} x ${i} = ${number*i}`);
+    i++;
+}
+

@@ -14,3 +14,12 @@ EXEMPLE 1 : Boucle WHILE infinie
 - Que se passe-t-il lorsqu'on exécute ce code dans un navigateur ?
 */
 
+console.log(`Début du programme`);
+let i = 1;
+
+while (i <= 5) {
+    console.log(i);
+}
+
+console.log(`Fin du programme`)
+
